@@ -125,7 +125,7 @@
     "keycode": "^2.1.2",
     "prop-types": "^15.5.10",
     "prop-types-extra": "^1.0.1",
-    "react-overlays": "github:JACrosman/react-overlays#b0dea8a8b00f935301c6c77198b84b242d3ea430",
+    "react-overlays": "github:JACrosman/react-overlays#8140b0e9ba3e567fc14e372c0c77e3f12e9b2110",
     "react-prop-types": "^0.4.0",
     "uncontrollable": "^4.1.0",
     "warning": "^3.0.0"
