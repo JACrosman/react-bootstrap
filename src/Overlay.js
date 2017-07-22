@@ -74,6 +74,12 @@ const defaultProps = {
 };
 
 class Overlay extends React.Component {
+  updatePosition() {
+    if (this.overlay) {
+      this.overlay.updatePosition();
+    }
+  }
+
   render() {
     const { animation, children, ...props } = this.props;
 
@@ -91,6 +97,7 @@ class Overlay extends React.Component {
 
     return (
       <BaseOverlay
+        ref={(e) => { this.overlay = e; }}
         {...props}
         transition={transition}
       >
